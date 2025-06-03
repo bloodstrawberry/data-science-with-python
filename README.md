@@ -129,3 +129,61 @@ argon2-cffi-bindings 21.2.0
 annotated-types 0.5.0
 alembic 1.12.1
 ```
+
+<br>
+
+### Library
+```
+import pandas as pd
+import numpy as np
+
+from datetime import datetime
+
+
+from scipy.spatial.distance import pdist, squareform
+from scipy.spatial import distance
+from sklearn.metrics import pairwise_distances
+from sklearn.metrics.pairwise import cosine_distances
+
+# 샘플링
+from imblearn.over_sampling import RandomOverSampler
+from imblearn.over_sampling import SMOTE 
+from imblearn.under_sampling import RandomUnderSampler
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+
+# 앙상블
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+# 이상치 제거
+from sklearn.ensemble import IsolationForest
+from sklearn.neighbors import LocalOutlierFactor
+
+# 평가 지표
+from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
+from sklearn.metrics import confusion_matrix, auc
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.tree import DecisionTreeClassifier
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Ridge, Lasso, LassoLars
+import statsmodels.api as sm
+
+
+from sklearn.cluster import DBSCAN # 이상치 제거
+from sklearn.cluster import KMeans
+from sklearn.cluster import AgglomerativeClustering
+
+
+from xgboost import XGBClassifier
+
+
+from sklearn.decomposition import PCA
+
+from sklearn.model_selection import GridSearchCV
+```
