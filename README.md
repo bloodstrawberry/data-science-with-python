@@ -173,7 +173,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge, Lasso, LassoLars
 import statsmodels.api as sm
-
+from statsmodels.formula.api import ols
+from statsmodels.stats.anova import anova_lm
+from scipy.stats import f_oneway
 
 from sklearn.cluster import DBSCAN # 이상치 제거
 from sklearn.cluster import KMeans
