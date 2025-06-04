@@ -174,6 +174,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge, Lasso, LassoLars
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
+from statsmodels.formula.api import logit
+
 from statsmodels.stats.anova import anova_lm
 from scipy.stats import f_oneway
 
